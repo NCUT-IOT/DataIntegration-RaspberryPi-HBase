@@ -27,6 +27,7 @@ nohup hbase thrift start &
 
 （2）建立连接
 import happybase
+
 connection = happybase.Connection('somehost')
 
 （3）建立连接之后查看可以使用的表：
